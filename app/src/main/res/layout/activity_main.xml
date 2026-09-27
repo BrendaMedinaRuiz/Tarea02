@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título del cine -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CinePopcorn"
+            android:textSize="28sp"
+            android:textColor="#FFD700"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartelera de la semana"
+            android:textSize="16sp"
+            android:textColor="#CCCCCC"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Película 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#16213E"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:background="#0F3460"
+                android:padding="8dp"
+                android:scaleType="centerInside"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CARS - ANIVERSARIO"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kids"
+                    android:textSize="13sp"
+                    android:textColor="#AAAAAA"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 14:00 | 17:30 | 20:00"
+                    android:textSize="14sp"
+                    android:textColor="#FFD700"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$75.00"
+                    android:textSize="18sp"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Película 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#16213E"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:background="#0F3460"
+                android:padding="8dp"
+                android:scaleType="centerInside"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AVENGERS: END GAME"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accion"
+                    android:textSize="13sp"
+                    android:textColor="#AAAAAA"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 15:00 | 18:00 | 21:30"
+                    android:textSize="14sp"
+                    android:textColor="#FFD700"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$80.00"
+                    android:textSize="18sp"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Película 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#16213E"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:elevation="6dp">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:background="#0F3460"
+                android:padding="8dp"
+                android:scaleType="centerInside"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COYOTE VS ACME"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMEDIA"
+                    android:textSize="13sp"
+                    android:textColor="#AAAAAA"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 13:00 | 16:00 | 19:00"
+                    android:textSize="14sp"
+                    android:textColor="#FFD700"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$70.00"
+                    android:textSize="18sp"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Botón para comprar boletos -->
+        <Button
+            android:id="@+id/btnComprar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" COMPRAR BOLETOS"
+            android:textSize="18sp"
+            android:backgroundTint="#E94560"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
